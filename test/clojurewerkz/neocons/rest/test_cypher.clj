@@ -10,7 +10,7 @@
         [clojure.pprint :only [pprint]]
         [clojurewerkz.neocons.rest.records :only [instantiate-node-from instantiate-rel-from instantiate-path-from]]))
 
-(neorest/connect! "http://localhost:7474/db/data/")
+(neorest/connect! "http://localhost:7474/db/data/" "" "")
 
 
 ;;

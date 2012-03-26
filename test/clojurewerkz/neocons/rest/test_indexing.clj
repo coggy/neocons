@@ -5,7 +5,7 @@
   (:import [slingshot ExceptionInfo])
   (:use clojure.test))
 
-(neorest/connect! "http://localhost:7474/db/data/")
+(neorest/connect! "http://localhost:7474/db/data/" "" "")
 
 ;;
 ;; Indexes

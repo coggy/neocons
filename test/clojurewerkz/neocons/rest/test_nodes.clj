@@ -6,7 +6,7 @@
   (:use clojure.test
         [clojurewerkz.neocons.rest.records :only [instantiate-node-from]]))
 
-(neorest/connect! "http://localhost:7474/db/data/")
+(neorest/connect! "http://localhost:7474/db/data/" "" "")
 
 
 ;;

@@ -9,7 +9,7 @@
         [clojure.set :only [subset?]]
         [clojurewerkz.neocons.rest.records :only [instantiate-node-from instantiate-rel-from]]))
 
-(neorest/connect! "http://localhost:7474/db/data/")
+(neorest/connect! "http://localhost:7474/db/data/" "" "")
 
 ;;
 ;; Working with relationships
